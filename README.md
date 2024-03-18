@@ -1,7 +1,8 @@
-# Tasks CLASS CLASSES
+Ôªø
 
- //Task 1:
+ clas CLASSES
 
+ Task 1:
  Please, create MyAccessModifiers class with next members:
 
 int field birthYear is unavailable anywhere except this class
@@ -24,9 +25,13 @@ method HasLivedHalfOfLife available only for descendants of the class in other a
 
 overload operator ==. The operator returns true if name, age, and personalInfo  of objects are equal
 
-//Task 2:
 
-Create a Point class which models a 2D point with x and y coordinates should contain:
+ 
+
+
+
+// Task 2:
+// Create a Point class which models a 2D point with x and y coordinates should contain:
 
 Two instance variables x and y  of int type, that will be available only in this class.
 
@@ -70,19 +75,18 @@ Define Equals method and operators == and !=. Fractions are equal if their simpl
 
 Define GetHashCode() method with the implementation of your choice.
 
-//Task 4
+// Task 4:
+// Suppose, you have class
 
-Suppose, you have class
-
- public abstract class CloseableResource
+public abstract class CloseableResource
+{
+    public void Close()
     {
-        public void Close()
-        {
 
-        }
     }
+}
 
-    Please, create class DisposePatternImplementer that implements Disposable pattern and inherits from CloseableResource class
+// Please, create class DisposePatternImplementer that implements Disposable pattern and inherits from CloseableResource class
 
 Print such lines of information in the method responsible for releasing managed and unmanaged resources:
 
@@ -92,45 +96,37 @@ or "Disposing by GC" if the object is disposed by garbage collector
 
 also, you should ensure that method Close() is called in either case.
 
-//Task 5
+// Task 5:
+// Please, make refactoring of the code:
 
-Please, make refactoring of the code:
+// We know that adult  doesn't have childIDNumber 
+// child doesn't have passportNumber.
+// Create a public constructor in each class to initialize all their fields (make the first parameter of type int and the second one for name initialization).
+// Accessibility of the fields should be the least possible, but the same in all assemblies.
+// Add ToString() method to Child and Adult classes that will return a string in the format: "name document_number"
 
-      We know that adult  doesn't have childIDNumber 
+public class Person
+{
+    protected string childIDNumber;
+}
 
-       child doesn't have passportNumber.
+public class Child
+{
+    private int yearOfBirth;
+    private string healthInfo;
+    private string name;
+    public string GetHealthStatus() { return name + ": " + yearOfBirth + ". " + healthInfo; }
+}
 
-       Create a public constructor in each class to initialize all their fields (make the first parameter of type int and the second one for name initialization).
+public class Adult
+{
+    private int yearOfBirth;
+    private string healthInfo;
+    private string passportNumber;
+    private string name;
+    public string GetHealthStatus() {return name + ": " + yearOfBirth + ". " + healthInfo; }
 
-       Accessibility of the fields should be the least possible, but the same in all assemblies.
-
-       Add ToString() method to Child and Adult classes that will return a string in the format: "name document_number"
-
-     
-
-    public class Person
-    {
-        protected string childIDNumber;
-    }
-
-    public class Child
-    {
-        private int yearOfBirth;
-        private string healthInfo;
-        private string name;
-        public string GetHealthStatus() { return name + ": " + yearOfBirth + ". " + healthInfo; }
-    }
-
-    public class Adult
-    {
-        private int yearOfBirth;
-        private string healthInfo;
-        private string passportNumber;
-        private string name;
-        public string GetHealthStatus() {return name + ": " + yearOfBirth + ". " + healthInfo; }
-
-    }
-    
+}    
 
    
    
@@ -172,17 +168,17 @@ Class Developer should contain public void method ShowInfo() that prints the suc
 
 <name> is <programmingLanguage> programmer".
 
-Please, pay attention that the first line as the same as for appropriate Employeeís method.
+Please, pay attention that the first line as the same as for appropriate Employee‚Äôs method.
 
 Class Tester should contain public void method ShowInfo() that prints the such string
 
-ì<name> is authomated tester and has <Experience> year(s) of experienceî
+‚Äú<name> is authomated tester and has <Experience> year(s) of experience‚Äù
 
 If isAuthomated field is true
 
 Or
 
-ì<name> is manual tester and has <Experience> year(s) of experienceî
+‚Äú<name> is manual tester and has <Experience> year(s) of experience‚Äù
 
 If isAuthomated field is false.
 
@@ -202,25 +198,25 @@ Every class should have public void method ShowInfo().
 
 For class Car this method should display message:
 
-ìMark : <mark>,
+‚ÄúMark : <mark>,
 
-Producted in <prodYear>î
+Producted in <prodYear>‚Äù
 
 For SportCar this method should display message:
 
-ìMark : <mark>,
+‚ÄúMark : <mark>,
 
 Producted in <prodYear>
 
-Maximum speed is <maxSpeed>î
+Maximum speed is <maxSpeed>‚Äù
 
 For Lory this method should display message:
 
-ìMark : <mark>,
+‚ÄúMark : <mark>,
 
 Producted in <prodYear>
 
-The load capacity is <loadCapacity>î
+The load capacity is <loadCapacity>‚Äù
 
 Please organize the code optimally.
 
@@ -255,11 +251,11 @@ Every class that is derived from class ChessFigure must implement void method Mo
 
 //Task 5
 
-For finish, letís talk about the cats. The big cats.
+For finish, let‚Äôs talk about the cats. The big cats.
 
 Please, create class Acinonychini. This class has two sub-classes, that live now: Acinonyx and Puma.
 
-Create these sub-classes too. Itís known that Puma has sub-classed and they may be created later. Acinonyx has no sub-classed, so itís sub-classes canít be created anywhen.
+Create these sub-classes too. It‚Äôs known that Puma has sub-classed and they may be created later. Acinonyx has no sub-classed, so it‚Äôs sub-classes can‚Äôt be created anywhen.
 
 Create For all the classes those fields, properties and methods that you think they need.
 
@@ -285,7 +281,7 @@ Create a program that can be used for calculation of 4 arithmetic operations (+,
 
 //Task 2
 
-Define a class StringExtensions with an extension method WordCount(Ö) for class String that counts the number of words in a given string. 
+Define a class StringExtensions with an extension method WordCount(‚Ä¶) for class String that counts the number of words in a given string. 
 
 Notes. 
 
@@ -302,7 +298,7 @@ The method  ListWithPositive returns the list of positive elements.
 
 //Task 4
 
- Define a class IListExtensions with an extension method IncreaseWith(Ö) that takes an instance of a class, that implements the interface list of integers (IList<int>). Method IncreaseWith(Ö) increases the value of each item by a certain number. 
+ Define a class IListExtensions with an extension method IncreaseWith(‚Ä¶) that takes an instance of a class, that implements the interface list of integers (IList<int>). Method IncreaseWith(‚Ä¶) increases the value of each item by a certain number. 
 
 Define a class  IEnumerableExtensions with an extension method ToString(). ToString() loops through a collection and converts a sequence of elements (list of integers) to a meaningful string (items separated with ', ' and surrounded with '[' and ']').
 
@@ -671,9 +667,9 @@ Implement method Evaluate that will start the evaluation (of the function passed
 
 We have the class MainThreadProgram. Please create three methods: Calculator, Product, and Sum.
 
-Method Sum() should ask the user to enter 5 numbers in the form ìEnter the 1st number:î, ìEnter the 2nd number:î etc. and calculate their sum. After that, it should output the message ìSum is: <sum>î. 
+Method Sum() should ask the user to enter 5 numbers in the form ‚ÄúEnter the 1st number:‚Äù, ‚ÄúEnter the 2nd number:‚Äù etc. and calculate their sum. After that, it should output the message ‚ÄúSum is: <sum>‚Äù. 
 
-Method Product() should generate a List of 10 consequent integer numbers from 1 to 10 and calculate their product. Then it should wait for 10 seconds. After that, it should output the message ìProduct is: <product>î. 
+Method Product() should generate a List of 10 consequent integer numbers from 1 to 10 and calculate their product. Then it should wait for 10 seconds. After that, it should output the message ‚ÄúProduct is: <product>‚Äù. 
 
 The Calculator() method should create two threads: productThread and sumThread, and call the Product and Sum methods in appropriate threads. This method should return a tuple of two threads: (sumThread, productThread).
 
@@ -686,19 +682,19 @@ Please, look at the code below.
 static void Tasks()
 {
 int[] sequence_array = new int [10];
-Task??tasksl = new Task[3]
+Task„ÄåÔºΩtasksl = new Task[3]
 {
 new Task(() =>
 {
 for (int 1 = 0; 1 < 10; 1++)
 {
-sequence_array?i?=i*i?
+sequence_arrayÔºªiÔºΩ=i*iÔºõ
 }
 Console WriteLine ("Calculated!");
 }),
-new Task(() =õ
+new Task(() =‚Ä∫
 {
-for?int 1=0,i< 10;i++?
+forÔºàint 1=0,i< 10;i++Ôºâ
 {
 Console.Writeline (i);
 }
@@ -706,8 +702,8 @@ Console.WriteLine ("Bye!");
 });
 new Task(() =>
 {
-for ?int i= 0;i<10;1++?
-?
+for Ôºàint i= 0;i<10;1++Ôºâ
+ÔΩõ
 Console WriteLine (sequence_array [1]);
 }
 Console WriteLine("Bye!");
