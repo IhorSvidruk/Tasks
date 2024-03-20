@@ -1,6 +1,13 @@
-﻿
+﻿# Overview:
 
-## Tasks CLASS
+This is an example of the tasks I did during my practical course at the academy. It is sorted by topic and has a description of the tasks.
+
+_Naming with capital letters and spaces, determined by the policy of the softserv system, for checking tasks_
+
+<br>
+
+## Tasks on the topic "CLASS"
+File: [CLASSES .cs](https://github.com/IhorSvidruk/Tasks/blob/main/Task/Tasks/CLASSES.cs).
 
 <details>
   <summary>
@@ -154,7 +161,8 @@
   </details>
 <br>
 
-## Tasks CLASS CLASSES
+## Tasks on the topic "CLASS CLASSES"
+File: [CLASS DESIGN.cs](https://github.com/IhorSvidruk/Tasks/blob/main/Task/Tasks/CLASS%20DESIGN.cs).
 <details>
   <summary>
   Description of Task 1
@@ -304,7 +312,8 @@
 <br>
 
 
-## Tasks DELEGATES
+## Tasks on the topic "DELEGATES"
+File: [DELEGATES.cs](https://github.com/IhorSvidruk/Tasks/blob/main/Task/Tasks/DELEGATES.cs).
 
 <details>
   <summary>
@@ -372,7 +381,8 @@
 <br>
 
 
-## Tasks INTERFACES
+## Tasks on the topic "INTERFACES"
+File: [INTERFACES.cs](https://github.com/IhorSvidruk/Tasks/blob/main/Task/Tasks/INTERFACES.cs).
 <details>
   <summary>
   Description of Task 1
@@ -460,7 +470,8 @@
   </details>
 <br>
 
-## Tasks COLLECTIONS
+## Tasks on the topic "COLLECTIONS"
+File: [COLLECTIONS.cs](https://github.com/IhorSvidruk/Tasks/blob/main/Task/Tasks/COLLECTIONS.cs).
 
 <details>
   <summary>
@@ -527,7 +538,8 @@
   </details>
 <br>
 
-## Tasks IENUMERABLE
+## Tasks on the topic "IENUMERABLE"
+File: [IENUMERABLE.cs](https://github.com/IhorSvidruk/Tasks/blob/main/Task/Tasks/IENUMERABLE.cs).
 <details>
   <summary>
   Description of Task 1
@@ -583,7 +595,7 @@
 
     Please, implement class Library with public property Books of generic IEnumerable type that can be set only inside the class,
 
-   and public property Filter (generic predicate) that sets a condition on book. The default value of Filter: any book satisfies the condition.
+    and public property Filter (generic predicate) that sets a condition on book. The default value of Filter: any book satisfies the condition.
 
     The constructor of Library class takes 1 parameter for initialization Books property.
 
@@ -634,7 +646,8 @@
 
 
 
-## TasksLINQ
+## Tasks on the topic "LINQ"
+File: [LINQ.cs](https://github.com/IhorSvidruk/Tasks/blob/main/Task/Tasks/LINQ.cs).
 
 <details>
   <summary>
@@ -688,7 +701,7 @@
 
     Please, create a static method GetWord takes 2 string parameters: 
 
-   first - initial string with a sequence of words separated by space 
+    first - initial string with a sequence of words separated by space 
 
     second - a word for comparison.
 
@@ -718,7 +731,7 @@
 
     Create constructor with string, decimal, Department parameters to initialize the properties.
 
-   Implement public Serialize method that returns string that contains serialized Worker object in json format.
+    Implement public Serialize method that returns string that contains serialized Worker object in json format.
 
     Worker that is created like this 
 
@@ -729,12 +742,12 @@
     "Full name": "Anna",
     "Salary": 700,
     "Department": {
-   "Name": "Mechanics",
+    "Name": "Mechanics",
     "Id": 1,
     "Manager": {
     "Full name": "Tom",
     "Salary": 600
-   }
+    }
     }
     }
     note that Id property should not be serialized and Name property should be represented as Full name
@@ -743,7 +756,8 @@
   </details>
 <br>
 
-## Tasks MULTITHREADING
+## Tasks on the topic "MULTITHREADING"
+File: [MULTITHREADING.cs](https://github.com/IhorSvidruk/Tasks/blob/main/Task/Tasks/MULTITHREADING.cs).
 
 <details>
   <summary>
@@ -941,7 +955,8 @@
 <br>
 
 
-## Tasks ASYNCHRONOUS 
+## Tasks on the topic "ASYNCHRONOUS"
+File: [ASYNCHRONOUS.cs](https://github.com/IhorSvidruk/Tasks/blob/main/Task/Tasks/ASYNCHRONOUS.cs).
 
 <details>
   <summary>
@@ -1030,7 +1045,8 @@
 
 
 
-## Tasks REFLECTION
+## Tasks on the topic "REFLECTION"
+File: [REFLECTION.cs](https://github.com/IhorSvidruk/Tasks/blob/main/Task/Tasks/REFLECTION.cs).
 
 <details>
   <summary>
