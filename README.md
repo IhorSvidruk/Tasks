@@ -583,7 +583,7 @@
 
     Please, implement class Library with public property Books of generic IEnumerable type that can be set only inside the class,
 
-   and public property Filter (generic predicate) that sets a condition on book. The default value of Filter: any book satisfies the condition.
+    and public property Filter (generic predicate) that sets a condition on book. The default value of Filter: any book satisfies the condition.
 
     The constructor of Library class takes 1 parameter for initialization Books property.
 
@@ -634,7 +634,7 @@
 
 
 
-## TasksLINQ
+## Tasks LINQ
 
 <details>
   <summary>
@@ -688,7 +688,7 @@
 
     Please, create a static method GetWord takes 2 string parameters: 
 
-   first - initial string with a sequence of words separated by space 
+    first - initial string with a sequence of words separated by space 
 
     second - a word for comparison.
 
@@ -718,7 +718,7 @@
 
     Create constructor with string, decimal, Department parameters to initialize the properties.
 
-   Implement public Serialize method that returns string that contains serialized Worker object in json format.
+    Implement public Serialize method that returns string that contains serialized Worker object in json format.
 
     Worker that is created like this 
 
@@ -729,12 +729,12 @@
     "Full name": "Anna",
     "Salary": 700,
     "Department": {
-   "Name": "Mechanics",
+    "Name": "Mechanics",
     "Id": 1,
     "Manager": {
     "Full name": "Tom",
     "Salary": 600
-   }
+    }
     }
     }
     note that Id property should not be serialized and Name property should be represented as Full name
